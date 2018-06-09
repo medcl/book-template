@@ -9,14 +9,14 @@
 <hr />
 
 <div class="row clearfix">
-  <div class="large-6 columns">
+  <div style="width:50%;float:left;padding-left: 15px;">
 	<div class="text-left" style="padding:15px 0px;">
 		{% if postNav.prev %}
 	        <a href="{{ postNav.prev.url }}"  title="Previous Post: {{ postNav.prev.title }}">&laquo; {{ postNav.prev.title }}</a>
 	    {% /if %}
 	</div>
   </div>
-  <div class="large-6 columns">
+  <div style="width:50%;float:right;padding-right: 15px;">
 	<div class="text-right" style="padding:15px 0px;">
 		{% if postNav.next %}
 	        <a href="{{ postNav.next.url }}" 
